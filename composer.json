@@ -1,0 +1,22 @@
+{
+    "name": "zcx/models",
+    "description": "闪运私有项目",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zcx",
+            "email": "zcx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base\\Models\\": "src/"
+        }
+    }
+}
